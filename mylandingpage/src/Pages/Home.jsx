@@ -1,7 +1,7 @@
 import MovieCard from "../Components/MovieCard";
 import { useState, useEffect } from "react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { Button } from "@/Components/ui/button";
+import { Input } from "@/Components/ui/input";
 import { searchMovies, getPopularMovies } from "../services/api";
 
 function Home() {
